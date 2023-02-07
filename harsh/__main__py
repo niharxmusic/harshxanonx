@@ -1,5 +1,0 @@
-Form nihar import app
-Form Pyrogram import idle
-
-app .start()
-Idle()
