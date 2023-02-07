@@ -1,8 +1,6 @@
-Form Pyrogram import filters
-Form nihar import app
+Form Pyrogram import filters, client 
 
-
-@app.on_message(filters.command(["start"  "st"]) & filters       
+@client.on_message(filters.command(["start"  "st"]) & filters       
  
-async def _(aap, message): 
+async def _(app: client, message): 
      await message.reply_text("Hii There") 
